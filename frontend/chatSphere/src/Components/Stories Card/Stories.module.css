@@ -1,0 +1,7 @@
+.status__view__container {
+  max-width: 100%;
+  height: max-content;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+}

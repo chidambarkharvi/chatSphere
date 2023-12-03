@@ -1,0 +1,43 @@
+.right__sidebar__container {
+  max-width: 100%;
+  height: calc(100vh - 5rem);
+  background-color: transparent;
+  /* padding: 2rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.right__sidebar__container::-webkit-scrollbar {
+  width: 1.5rem;
+}
+.right__sidebar__container::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.right__sidebar__container:hover::-webkit-scrollbar {
+  width: 1.5rem;
+  height: 3rem;
+}
+
+.right__sidebar__container:hover::-webkit-scrollbar-thumb {
+  background-color: blueviolet;
+  border-radius: 1rem;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.suggest__card__container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .right__sidebar__container {
+    display: none;
+  }
+}

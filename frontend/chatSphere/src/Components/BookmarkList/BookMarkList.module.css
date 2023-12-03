@@ -1,0 +1,17 @@
+.bookmark__list__container {
+  max-width: 100%;
+  height: max-content;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.no__book__mark_post {
+  width: 100%;
+  height: calc(100vh - 10rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

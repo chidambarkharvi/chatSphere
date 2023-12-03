@@ -1,0 +1,100 @@
+.login__container {
+  max-width: 100%;
+  min-height: calc(100vh - 5rem);
+}
+
+.grid__container,
+.about__grid__container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.about__section {
+  max-width: 100%;
+  min-height: calc(100vh - 5rem);
+  background: rgba(30, 64, 175, 0.813);
+  background: linear-gradient(
+    40deg,
+    rgba(30, 64, 175, 0.793) 53%,
+    rgba(126, 34, 206, 1) 85%
+  );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.about__brand {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.btn {
+  width: 50%;
+  height: 100%;
+  background: whitesmoke;
+  color: rgb(49, 90, 228);
+  outline: 2px solid transparent;
+  border-radius: 0.7rem;
+  padding: 1rem 1rem;
+  font-size: 1.725rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login__card {
+  max-width: 100%;
+  height: calc(100vh - 5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 60%;
+  }
+  .about__grid__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  .grid__container {
+    grid-template-columns: 1fr;
+  }
+  .login__card {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 40%;
+  }
+  .grid__container {
+    grid-template-columns: 1fr;
+  }
+  .about__section {
+    display: none;
+  }
+  .login__card {
+    min-height: 100vh;
+    padding: 2rem;
+  }
+}

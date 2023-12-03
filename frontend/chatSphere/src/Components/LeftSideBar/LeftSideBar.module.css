@@ -1,0 +1,84 @@
+.big__container {
+  width: 100%;
+  height: calc(100vh - 5rem);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.left__sidebar__container {
+  max-width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.menu__container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home,
+.explore,
+.notification,
+.message,
+.bookmark,
+.profile,
+.delete,
+.logout {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  padding: 1rem;
+}
+
+.home p,
+.explore p,
+.notification p,
+.message p,
+.bookmark p,
+.profile p,
+.delete p,
+.logout p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 1rem;
+  color: #000;
+}
+
+.icons {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .home p,
+  .explore p,
+  .notification p,
+  .message p,
+  .bookmark p,
+  .profile p,
+  .delete p,
+  .logout p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .big__container {
+    display: none;
+  }
+}

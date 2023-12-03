@@ -1,0 +1,106 @@
+.setting__container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.setting__header {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(224 231 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem 4rem;
+  border-radius: 0.9rem;
+}
+
+.setting__header h3 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.icons {
+  width: 4rem;
+  height: 4rem;
+}
+
+.account__zone,
+.personal__zone {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border: 3px solid #ccc;
+  padding: 2rem;
+  border-radius: 0.9rem;
+}
+
+.account__zone h4,
+.personal__zone h4 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.delet__account,
+.change__password,
+.change__username,
+.change__email {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delet__account h5,
+.change__password h5,
+.change__email h5 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.delet__btn {
+  width: 30rem;
+  height: 5rem;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  border-radius: 0.9rem;
+  border: none;
+  cursor: pointer;
+}
+
+.change__password__btn,
+.change__email__btn {
+  width: 30rem;
+  height: 5rem;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  border-radius: 0.9rem;
+  border: none;
+  cursor: pointer;
+}
+
+.logout__btn {
+  width: 95%;
+  margin: 0 auto;
+  height: 7rem;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  border-radius: 0.9rem;
+  border: none;
+  cursor: pointer;
+}

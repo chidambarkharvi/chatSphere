@@ -1,0 +1,28 @@
+.profile__card__container {
+  max-width: 100%;
+  height: max-content;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image__container {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user__name__container {
+  width: max-content;
+  height: max-content;
+}
+
+.user__name__container h3 {
+  text-align: center;
+}

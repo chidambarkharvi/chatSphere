@@ -1,0 +1,131 @@
+.flex__container {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  gap: 1rem;
+  background-color: #f9f9f9;
+}
+.form__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 2rem;
+}
+
+.input__container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.input__container input {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: transparent;
+  color: #333;
+}
+
+.avatar__image__container {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.avatar__image__container img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.icon__container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.icons {
+  font-size: 3rem;
+}
+.send__button {
+  width: 6rem;
+  height: 6rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji__container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .flex__container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .input__container {
+    width: 100%;
+    gap: 1rem;
+  }
+  .input__container input {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: #333;
+  }
+  .avatar__image__container {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .icon__container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .icons {
+    font-size: 5rem;
+  }
+  .send__button {
+    width: 6rem;
+    height: 6rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .flex__container {
+    display: none;
+  }
+}

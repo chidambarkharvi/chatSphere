@@ -1,0 +1,66 @@
+.image__container {
+  width: 16rem;
+  height: 16rem;
+  margin: auto;
+}
+.form__heading {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.form__details {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.input__feild {
+  width: 100%;
+  height: max-content;
+  border: 2px solid rgba(128, 128, 128, 0.681);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.icons {
+  width: 1.725rem;
+  height: 1.725rem;
+  color: rgba(128, 128, 128, 0.681);
+}
+
+.input__box {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.button__container {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  background: rgb(49, 90, 228);
+  color: white;
+  outline: 2px solid transparent;
+  border-radius: 0.7rem;
+  padding: 1rem 1rem;
+  font-size: 1.725rem;
+  font-weight: 500;
+  cursor: pointer;
+}

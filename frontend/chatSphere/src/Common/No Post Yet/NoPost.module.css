@@ -1,0 +1,34 @@
+.no__post__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 6rem 0;
+}
+
+.no__post__svg {
+  width: 20rem;
+  height: 20rem;
+  border: 4px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50rem;
+}
+
+.cam__icon {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.noPost__text {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #ccc;
+}
